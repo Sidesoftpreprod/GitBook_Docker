@@ -62,4 +62,6 @@ Para conectarnos al contenedor de postgres desde el contenedor de pgadmin4 usamo
 
 ![](<.gitbook/assets/pgAdmin 4 - Google Chrome 25\_6\_2022 11\_41\_46.png>)
 
+{% hint style="info" %}
 Sí deseamos conectarnos desde el "Sistema Operativo Host" podemos hacerlo con localhost, 127.0.0.1 o la ip del host.
+{% endhint %}
