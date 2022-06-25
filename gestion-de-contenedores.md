@@ -26,7 +26,7 @@ Otra opción mucha más gráfica y amigable (mi preferida) es [portainer](https:
 
 ![](<.gitbook/assets/Docker extension for Visual Studio Code - Google Chrome 25\_6\_2022 09\_05\_58.png>)
 
-Esta herramienta se instala en forma de contenedor, seria _**"un contenedor para gobernarlos a todos"**_, para ello crearemos un script de docker-compose.yml:
+Esta herramienta se instala en forma de contenedor, seria _**"un contenedor para gobernarlos a todos"**_, para ello crearemos un script docker-compose.yml:
 
 ```
 version: '3'
