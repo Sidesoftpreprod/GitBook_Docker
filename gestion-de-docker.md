@@ -1,4 +1,4 @@
-# Gestión de contenedores
+# Gestión de Docker
 
 Docker dispone de un [CLI ](https://docs.docker.com/reference/)para su administración, sin embargo, resulta mucho más cómodo utilizar una interfaz gráfica para el uso rutinario.
 
@@ -22,7 +22,7 @@ Y muchas cosas más.
 
 ![](<.gitbook/assets/Gestión de contenedores - Docker - Google Chrome 25\_6\_2022 08\_56\_35.png>)
 
-Otra opción mucha más gráfica y amigable (mi preferida) es [portainer](https://www.portainer.io/), una interfaz gráfica basada en web para Docker.
+Otra opción mucho más amigable (mi preferida) es [portainer](https://www.portainer.io/), una interfaz gráfica basada en web para Docker.
 
 ![](<.gitbook/assets/Docker extension for Visual Studio Code - Google Chrome 25\_6\_2022 09\_05\_58.png>)
 
