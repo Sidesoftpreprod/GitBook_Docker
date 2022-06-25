@@ -58,6 +58,8 @@ Con esto ya se puede acceder al pgadmin4 desde el navegador a través del puerto
 
 ![](<.gitbook/assets/pgAdmin 4 - Google Chrome 25\_6\_2022 11\_41\_12.png>)
 
-Y podremos conectarnos al contenedor de postgres a través de su nombre de servicio definido en el script docker-compose.yml que en este caso es "postgres".
+Para conectarnos al contenedor de postgres desde el contenedor de pgadmin4 usamos su nombre de servicio definido en el script docker-compose.yml que en este caso es "postgres".
 
 ![](<.gitbook/assets/pgAdmin 4 - Google Chrome 25\_6\_2022 11\_41\_46.png>)
+
+Sí deseamos conectarnos desde el "Sistema Operativo Host" podemos hacerlo con localhost, 127.0.0.1 o la ip del host.
