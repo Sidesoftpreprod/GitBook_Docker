@@ -2,7 +2,7 @@
 
 Script docker-compose.yml para crear los contenedores de postgres y pgadmin4:
 
-```
+```yaml
 version: "3"
 
 services:
@@ -50,7 +50,7 @@ networks:
 
 Luego, ubicados en el directorio donde se encuentra el script ejecutamos:
 
-```
+```bash
 docker-compose up -d
 ```
 
