@@ -1,10 +1,6 @@
 # Instalación en Ubuntu
 
-Tenemos 2 opciones para instalar Docker en Ubuntu, la primera y más fácil es hacerlo a través de [snapcraft](https://snapcraft.io/):
-
-{% embed url="https://snapcraft.io/docker" %}
-
-La segunda opción (y mas recomendada) es siguiendo su documentación oficial:
+La opción más recomendada es siguiendo su documentación oficial:
 
 {% embed url="https://docs.docker.com/engine/install/ubuntu/" %}
 
