@@ -1,6 +1,6 @@
 # Postgres
 
-Script docker-compose.yml para crear los contenedores de postgres y pgadmin4:
+Script docker-compose.yml para crear los contenedores postgres y pgadmin4:
 
 ```yaml
 version: "3.8"
