@@ -29,7 +29,7 @@ Otra opción mucho más amigable (mi preferida) es [portainer](https://www.porta
 Esta herramienta se instala en forma de contenedor, seria _**"un contenedor para gobernarlos a todos"**_, para ello crearemos un script docker-compose.yml:
 
 ```yaml
-version: '3'
+version: "3.8"
 
 services:
   portainer:
