@@ -1,6 +1,6 @@
 # Tomcat
 
-Script docker-compose.yml para crear los contenedor tomcat:
+Script docker-compose.yml para crear contenedores tomcat:
 
 ```yaml
 version: "3.8"
