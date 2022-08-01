@@ -33,4 +33,4 @@ Luego, ubicados en el directorio donde se encuentra el script ejecutamos:
 docker-compose up -d
 ```
 
-Con esta ya se puede desplegar cualquier aplicación Java que coloquemos en el directorio /opt/webapps
+Con esto ya se puede desplegar cualquier aplicación Java que coloquemos en el directorio /opt/webapps
