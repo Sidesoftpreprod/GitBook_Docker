@@ -6,31 +6,41 @@ description: Detalle de comandos utiles
 
 #### Tamaño que ocupa Docker
 
-> docker system df -v
+```
+docker system df -v
+```
 
 #### Exportar imagen
 
-> docker save myimage:latest | gzip > myimage\_latest.tar.gz
+```
+docker save myimage:latest | gzip > myimage\_latest.tar.gz
+```
 
 #### Importar imagen
 
-> docker load < busybox.tar.gz
+```
+docker load < busybox.tar.gz
+```
 
 #### Copiar del host al contenedor
 
-> docker cp ./some\_file CONTAINER:/work
+```
+docker cp ./some\_file CONTAINER:/work
+```
 
 #### Copiar del contenedor al host
 
-> docker cp CONTAINER:/var/logs/ /tmp/app\_logs
+```
+docker cp CONTAINER:/var/logs/ /tmp/app\_logs
+```
 
-**Detener todos los contenedores**
-
-> docker stop $(docker ps -q)
+#### Detener todos los contenedores
 
 ```
-Remove all the containers
+docker stop $(docker ps -q)
 ```
+
+#### Remove all the containers
 
 ```
 docker rm $(docker ps -a -q)
