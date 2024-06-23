@@ -52,7 +52,7 @@ docker rm $(docker ps -a -q)
 docker images --format "{{.ID}}\t{{.Size}}\t{{.Repository}}" | sort -k 2 -h
 ```
 
-**Ejecutar compose con nombre diferente al estandar** <mark style="color:blue;">docker-compose.yml</mark>
+**Ejecutar de un compose con un nombre diferente al estandar** <mark style="color:blue;">docker-compose.yml</mark>
 
 ```
 docker-compose -f docker-compose_custom.yml up
