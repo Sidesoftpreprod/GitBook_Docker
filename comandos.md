@@ -23,3 +23,15 @@ description: Detalle de comandos utiles
 #### Copiar del contenedor al host
 
 > docker cp CONTAINER:/var/logs/ /tmp/app\_logs
+
+**Detener todos los contenedores**
+
+> docker stop $(docker ps -q)
+
+```
+Remove all the containers
+```
+
+```
+docker rm $(docker ps -a -q)
+```
