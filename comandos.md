@@ -40,8 +40,28 @@ docker cp CONTAINER:/var/logs/ /tmp/app\_logs
 docker stop $(docker ps -q)
 ```
 
-#### Remove all the containers
+#### Eliminar todos los contenedores
 
 ```
 docker rm $(docker ps -a -q)
 ```
+
+**Tamaño utilizado por imagen**
+
+```
+docker images --format "{{.ID}}\t{{.Size}}\t{{.Repository}}" | sort -k 2 -h
+```
+
+**Ejecutar compose con nombre diferente al estandar** <mark style="color:blue;">docker-compose.yml</mark>
+
+```
+docker-compose -f docker-compose_custom.yml up
+```
+
+<mark style="color:green;">**Docker ps**</mark>** con datos generales**
+
+```
+docker ps --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}"
+```
+
+<figure><img src=".gitbook/assets/ksnip_20240622-235347.png" alt=""><figcaption></figcaption></figure>

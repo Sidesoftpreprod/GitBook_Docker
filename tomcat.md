@@ -24,7 +24,6 @@ networks:
   default:
     external: true
     name: docker
-
 ```
 
 Luego, ubicados en el directorio donde se encuentra el script ejecutamos:
